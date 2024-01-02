@@ -8,7 +8,7 @@ def main():
     debug = False
     total_points = 0
 
-    with open("/Users/jjodrey/Desktop/puzzle4_input.txt", encoding="utf-8") as f:
+    with open("../inputs/day4_input.txt", encoding="utf-8") as f:
         read_data = f.read()
         for idx, line in enumerate(read_data.splitlines()):
             winning_nums, my_nums = line[10:].split("|")

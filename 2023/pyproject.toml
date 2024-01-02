@@ -2,13 +2,15 @@
 name = "2023"
 version = "0.1.0"
 description = ""
-authors = ["Josh Jodrey <jjodrey@teamworks.com>"]
+authors = ["Josh Jodrey <REDACTED@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
 regex = "^2023.12.25"
 shapely = "^2.0.2"
+matplotlib = "^3.8.2"
+networkx = "^3.2.1"
 
 
 [build-system]
