@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "advent-of-code-2024"
+version = "0.1.0"
+description = ""
+authors = ["Josh Jodrey <jjodrey@teamworks.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+networkx = "^3.4.2"
+matplotlib = "^3.9.3"
+shapely = "^2.0.6"
+sympy = "^1.13.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
